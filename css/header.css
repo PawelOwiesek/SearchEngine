@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    position: relative;
+    height: 240px;
+    padding: 20px 40px;
+    font-family: "Dancing Script", cursive;
+    background-image: url(https://i.postimg.cc/Twwnfb74/cold-drink-gb8c159af8-1920.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.header__shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(52, 89, 130, .35);
+    z-index: -1;
+}
+
+.header__title {
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.header__search {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    font-size: 30px;
+    color: #000;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .75);
+}
