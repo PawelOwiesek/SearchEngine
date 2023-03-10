@@ -1,0 +1,22 @@
+.drinksList {
+    padding: 20px 40px;
+}
+
+.drinksList__title {
+    padding: 10px;
+}
+
+.drinksList__unorderedList {
+    padding-bottom: 30px;
+    font-size: 18px;
+    list-style: none;
+}
+
+.drinksList__item {
+    padding: 8px 30px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.drinksList__item:last-child {
+    border-bottom: 0;
+}
