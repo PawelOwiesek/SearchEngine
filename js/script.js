@@ -5,7 +5,7 @@
     const onImputAction = () => {
         listItems.forEach((listItem) => {
             const match = new RegExp(search.value, "i").test(listItem.textContent);
-            match ? listItem.style.dipslay = "block" :
+            match ? listItem.style.display = "block" :
                 listItem.style.display = "none";
         });
     };
